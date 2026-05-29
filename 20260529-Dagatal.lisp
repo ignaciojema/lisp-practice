@@ -1,5 +1,5 @@
 ;;;; Dagatal -  Kattis
-;;; A programme that tells the number of days in a month in a non leap year
+;;; A programme that tells the number of days in a month on a non leap year
 
 ;;; Variables
 (defvar month-list (list 31 28 31 30 31 30 31 31 30 31 30 31))

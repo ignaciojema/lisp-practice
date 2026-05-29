@@ -1,10 +1,12 @@
-;; An implementation of Fibonacci's Series
+;; An implementation of Fibonacci's Sequence
 
 (defun fibonacci (x)
     "A recursive implementation of Fibonacci's Series "
     (if (< x 0)
         0
-        (+ x (fibonacci (- x 1)))))
+        (if (= x 1)
+            1
+            (+ (fibonacci (- x 1)) (fibonacci (- x 2))))))
 
-(let ((x 6))
+(let ((x 3))
     (format t "~D~%" (fibonacci x)))

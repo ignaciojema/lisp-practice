@@ -1,4 +1,12 @@
-(defun read-num ()
-    (parse-integer (read-line)))
+;; An implementation of Fibonacci's Sequence
 
-(format t "~D" (+ 2022 (floor (read-num) (read-num))))
+(defun fibonacci (x)
+    "A recursive implementation of Fibonacci's Series "
+    (if (< x 0)
+        0
+        (if (= x 1)
+            1
+            (+ (fibonacci (- x 1)) (fibonacci (- x 2))))))
+
+(let ((x 3))
+    (format t "~D~%" (fibonacci x)))
