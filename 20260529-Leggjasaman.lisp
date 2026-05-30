@@ -1,3 +1,4 @@
+;;;; Leggjasaman - Kattis
 (defun read-number ()
     (parse-integer (read-line *query-io*)))
 

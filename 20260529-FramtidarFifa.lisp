@@ -1,3 +1,4 @@
+;;;; Framtidar Fifa - Kattis
 (defun read-num ()
     (parse-integer (read-line)))
 

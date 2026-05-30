@@ -8,5 +8,5 @@
             1
             (+ (fibonacci (- x 1)) (fibonacci (- x 2))))))
 
-(let ((x 3))
+(let ((x 8))
     (format t "~D~%" (fibonacci x)))

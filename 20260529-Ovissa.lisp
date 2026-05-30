@@ -1,3 +1,4 @@
+;;;; Ovissa - Kattis
 (defun count-u (s)
     (if (= 0 (length s))
         0
